@@ -12,6 +12,8 @@ public class Main {
         stackX.push(99);
         stackX.push(100);
         stackX.push(101);
+        
+        System.out.println(stackX.pop());
 
         System.out.println(stackX.peek());
     }
